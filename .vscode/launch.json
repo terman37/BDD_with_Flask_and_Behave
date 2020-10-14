@@ -1,0 +1,13 @@
+{"configurations": [
+    {
+        "name": "Python: Behave",
+        "type": "python",
+        "request": "launch",
+        "module": "behave",
+        "console": "integratedTerminal",
+        "args": [
+            "${file}"
+        ],
+        "cwd": "${workspaceFolder}/app"
+    }]
+}
